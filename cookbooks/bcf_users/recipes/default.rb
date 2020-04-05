@@ -1,5 +1,5 @@
-#
-# Cookbook:: bcf_users
-# Recipe:: default
-#
-# Copyright:: 2020, The Authors, All Rights Reserved.
+user "jenkins" do
+	comment "a user for CI/CD"
+	password "Newton@123456789"
+end
+
